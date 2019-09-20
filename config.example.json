@@ -1,0 +1,37 @@
+{
+  "ac_auth": {
+    "username":       "",
+    "password":       "",
+    "client_name":    "Export to excel application",
+    "client_vendor":  "Codezavod"
+  },
+  "ac_report_export": {
+    "name":                   "Экспорт в Google Data Studio",
+    "type_filter":            "time",
+    "job_type_filter":        "any",
+    "tracked_by_filter":      "anybody",
+    "tracked_on_filter":      "any",
+    "project_filter":         "any",
+    "billable_status_filter": "all",
+    "group_by":               "dont",
+    "include_all_projects":   "true"
+  },
+  "google_sheets": {
+    "client_id": "",
+    "client_secret": "",
+    "refresh_token": "",
+    "access_token": "",
+    "spreadsheet_estimate": {
+      "spreadsheet_id": "",
+      "sheet_id": 0
+    },
+    "spreadsheet_tasks": {
+      "spreadsheet_id": "",
+      "sheet_id": 0
+    },
+    "spreadsheet_subtasks": {
+      "spreadsheet_id": "",
+      "sheet_id": 0
+    }
+  }
+}
